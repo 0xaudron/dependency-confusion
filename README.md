@@ -1,4 +1,4 @@
-# Dependency Confusion Takeover
+# Dependency Takeover
 A very small  helper script for your dependency confusion attack which helps in checking and taking over dependency . 
 
 **Note**: It doesn't exploits the system, instead it should be used for generating Proof of Concept(PoC) and also you won't get blocked by npm if you use this script because no malicious payload is used in `index.js`.
