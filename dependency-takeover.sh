@@ -1,5 +1,3 @@
-echo "alias dependency-takeover='$(pwd)/./dependency.takeover.sh'" >> ~/.bashrc
-source ~/.bashrc
 #Check if directory exists
 if [ -d "/tmp/$1" ]; then
   cd /tmp/$1
