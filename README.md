@@ -11,7 +11,7 @@ A very small  helper script for your dependency confusion attack which helps in 
 For more, refer to this article - https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610 by [@alxbrsn](https://x.com/alxbrsn)
 
 ## Pre-requisites : 
-- Should have `npm` installed in your system
+- Should have the following packages - `npm`
 - Must be using this script on linux/unix based system
 
 ## Installation and setup :
