@@ -12,7 +12,7 @@ init=$(npm init --yes 2>&1)
 response=$(curl -s -H "Authorization: Bearer $NPM_TOKEN" https://registry.npmjs.org/-/whoami)
 if [ $? -eq 0 ]; then
   # Check if the response contains a valid username
-  #username=$(echo "$response" | jq -r '.username')
+  username=$(echo "$response" | grep -o '"username":"[^"]*' | grep -o '[^"]*$')
 
   # If the username exists, print a success message
   if [ "$username" != "null" ]; then
