@@ -21,7 +21,7 @@ For more, refer to this article - https://medium.com/@alex.birsan/dependency-con
 git clone https://github.com/0xaudron/dependency-confusion 
 cd dependency-confusion 
 chmod +x dependency-takeover.sh
-export $NPM_TOKEN=<NPM-TOKEN> 
+export NPM_TOKEN=<NPM-TOKEN> 
 ```
 
 ## Usage (with examples) :
